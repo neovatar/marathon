@@ -17,5 +17,4 @@ jobs:
         with:
           path: '.'
           fail-build: false
-          acs-report-enable: true
       - run: cat ${{ steps.scan_code.outputs.sarif }}
